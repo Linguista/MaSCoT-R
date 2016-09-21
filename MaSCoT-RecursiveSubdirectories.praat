@@ -15,7 +15,7 @@ if debug or debugEUT
 endif
 
 script_name$ = "MaSCoT-RecursiveSubdirectories"
-version$ = "3.1"
+version$ = "3.2"
 author$ = "Scott Sadowsky"
 
 #####################################################################################################
@@ -24,7 +24,7 @@ author$ = "Scott Sadowsky"
 # SCRIPT:		MAssive Speech COrpora Tool (MaSCoT) - Recursive Subdirectories
 # AUTHOR:		Scott Sadowsky - http://sadowsky.cl - ssadowsky REMOVETHISBIT gmail com
 # DATE:		3 July 2016
-# VERSION:	3.1
+# VERSION:	3.2
 # DESCRIPTION:	Opens all LongSound + TextGrid pairs in the subdirectories of a given directory
 #			and, using a complex set of regexes and other user specifications, allows the
 #			following to be done to matching intervals:
@@ -877,7 +877,7 @@ for currFile to numberOfFiles
 		#####################################################################################################
 		# NEW IN 2,7
 		# Extract tier labels to .txt file
-		# MODIFIED IN 3.1 FOR PHON PHONEMIC DICTIONARY WORDLIST
+		# MODIFIED IN 3.2 FOR PHON PHONEMIC DICTIONARY WORDLIST
 		#   The current version is adding filename prefixes and interval numbers no matter what. We're going
 		#   to brute-force that into submission.
 		#####################################################################################################
